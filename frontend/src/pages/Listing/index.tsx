@@ -6,14 +6,6 @@ import { useState } from "react";
 import { MoviePage } from "types/movie";
 import { BASE_URL } from "utils/request";
 
-const movie = {
-    id: 1,
-    image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-    title: "The Witcher",
-    count: 2,
-    score: 4.5
-};
-
 function Listing()
 {
     const [pageNumber, setPageNumber] = useState(0);
